@@ -1,0 +1,11 @@
+version: '1'
+services:
+  living-snow-testapi:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: living-snow-testapi
+    ports:
+      - "8080:80"
+    volumes:
+      - ~/playground/testing-apis/living-snow-project/app:/app
