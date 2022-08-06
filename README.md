@@ -13,9 +13,9 @@ This will build the docker container for the API and then start the container. T
 
 ```
 const serviceEndpoint =
-    "http://<the-local-ip-of-your-machine>:8080";
+    "http://{the-local-ip-of-your-machine}:8080";
 const photosBlobStorageEndpoint =
-    "http://${the-local-ip-of-your-machine}:8080/api/blob";
+    "http://{the-local-ip-of-your-machine}:8080/api/blob";
 
 ```
 You must use your local IPv4 address in order for test builds to route requests properly from your phone with `expo-go` or an Android or iOS simulator.
